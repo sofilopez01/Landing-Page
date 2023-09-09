@@ -1,27 +1,27 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400;1,700&display=swap");
 /*reseteo */
-*{ 
+* {
   margin: 0%;
   padding: 0;
   list-style-type: none;
   box-sizing: border-box;
- text-decoration: none;
- font-family:"poppins",sans-serif ;
- 
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
 }
 
 :root {
---background:#252b33 ;
---text:#f5f5f4;
-/*--azul:#1b4965;*/
---primary:#7d8597;
---secondary:#36ffd6 ;
+  --background: #252b33;
+  --text: #f5f5f4;
+  /*--blue:#1b4965;*/
+  --primary: #7d8597;
+  --secondary: #36ffd6;
 }
 
 body {
-background: var(--primary)
+  background: var(--primary);
 }
-.header{
+
+.header {
   background: var(--background);
   display: flex;
   justify-content: space-between;
@@ -33,23 +33,25 @@ background: var(--primary)
 }
 
 .navbar-list,
- .navbar{
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.navbar-list{
+.navbar-list {
   gap: 40px;
 }
-.navbar-list a{
-  color:var(--text) ;
+.navbar-list a {
+  color: var(--text);
   font-size: 14px;
-font-weight: 400;
- 
+  font-weight: 400;
+}
+
+.navbar-list a:hover {
+  color: var(--secondary);
 }
 
 .logo {
-height: 80px;
+  height: 80px;
 }
-
