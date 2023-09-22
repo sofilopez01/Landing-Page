@@ -15,9 +15,9 @@
       />
       <nav class="navbar">
         <ul class="navbar-list">
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#cards">Servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -63,6 +63,95 @@
           </p>
         </div>
       </section>
+      <!--SERVICIOS-->
+      <section id="cards">
+        <h2 class="title-cards">Our advantages</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+          necessitatibus!
+        </p>
+        <div class="info-cards-conteiner">
+          <!--Card 1-->
+          <div class="info-card">
+            <img src="/assets/cards/archivo-css (1).png" alt="benefio1" />
+            <h3>BENEFIT 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              officia.
+            </p>
+          </div>
+          <!--Card 2-->
+          <div class="info-card">
+            <img
+              src="/assets/cards/computacion-en-la-nube.png"
+              alt="benefio1"
+            />
+            <h3>BENEFIT 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur eius iste libero veritatis magnam.
+            </p>
+          </div>
+          <!--Card 3-->
+          <div class="info-card">
+            <img src="/assets/cards/cuota.png" alt="benefio1" />
+            <h3>BENEFIT 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              voluptas assumenda qui? Ullam, eos?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--CONTACTO-->
+      <section id="contact" class="contact">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-info-form">
+          <div class="contact-info">
+            <div class="smt">
+              <img src="/assets/contacto/mapa.png" alt="ubi" />
+              <p>fake street 123</p>
+            </div>
+            <div class="smt">
+              <img src="/assets/contacto/email.png" alt="mail" />
+              <p>Mail@mail.com</p>
+            </div>
+            <div class="smt">
+              <img src="/assets/contacto/llamar.png" alt="tel" />
+              <p>011 123123123</p>
+            </div>
+            <div class="networks">
+              <a href="#"
+                ><img src="/assets/redes/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/redes/instagram.png" alt="instagram"
+              /></a>
+              <a href="#"
+                ><img src="/assets/redes/whatsapp.png" alt="whatsapp"
+              /></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>send consult</h3>
+            <form>
+              <div class="nombre">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" required />
+              </div>
+              <div class="consulta">
+                <label for="consulta">Consultation:</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+              </div>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <img src="/assets/ff3bdec477be493e9ecb16d26739a684.png" alt="logo" />
+    </footer>
   </body>
 </html>
