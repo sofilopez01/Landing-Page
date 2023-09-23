@@ -3,7 +3,6 @@
   .hero-info {
     text-align: center;
     align-items: center;
-
     gap: 2rem;
     width: 100%;
   }
@@ -14,27 +13,34 @@
     background-clip: text;
     color: transparent;
     max-width: 35rem;
-    width: 90%;
+    min-width: unset;
   }
 
+  .hero-info .hero-text {
+    line-height: 30px;
+  }
   .hero-img {
     display: none;
   }
 
   #about {
-    padding: 2rem 5rem;
+    padding: 2rem 3rem;
   }
+
   .about-info h2 {
     font-size: x-large;
   }
 
+  .about-info p {
+    line-height: 30px;
+  }
   #cards {
     margin: 0 0.5rem;
   }
 }
 
-@media (max-width: 580px) {
-#hero {
+@media (max-width: 590px) {
+  #hero {
     padding: 2rem;
   }
 
@@ -46,14 +52,13 @@
   #about {
     padding: 2rem 1rem;
 
+    align-items: center;
+    justify-content: center;
   }
 
-  #cards  p{
+  #cards p {
     text-align: center;
-    
   }
 
-  .contact-info-form {
-    margin: 0 4rem;
-}
+  
 }
