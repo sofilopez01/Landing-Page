@@ -1,0 +1,59 @@
+/* TABLET*/
+@media (max-width: 992px) {
+  .hero-info {
+    text-align: center;
+    align-items: center;
+
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .hero-info h1 {
+    background: linear-gradient(#210279c0, var(--background));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    max-width: 35rem;
+    width: 90%;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  #about {
+    padding: 2rem 5rem;
+  }
+  .about-info h2 {
+    font-size: x-large;
+  }
+
+  #cards {
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+#hero {
+    padding: 2rem;
+  }
+
+  .hero-info .hero-text {
+    text-align: center;
+    align-items: center;
+  }
+
+  #about {
+    padding: 2rem 1rem;
+
+  }
+
+  #cards  p{
+    text-align: center;
+    
+  }
+
+  .contact-info-form {
+    margin: 0 4rem;
+}
+}
