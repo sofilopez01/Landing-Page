@@ -1,5 +1,32 @@
 /* TABLET*/
 @media (max-width: 992px) {
+  .menu-label {
+    display: flex;
+    order: 2;
+  }
+
+  .menu-label img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navbar-list {
+    position: absolute;
+    top: 65px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #13263b;
+    width: 30%;
+    height: calc(100vh - 65px);
+    padding: 1rem 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 2) ;
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .navbar-list{
+    display: flex;
+  }
   .hero-info {
     text-align: center;
     align-items: center;
@@ -59,6 +86,4 @@
   #cards p {
     text-align: center;
   }
-
-  
 }

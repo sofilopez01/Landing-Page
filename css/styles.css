@@ -9,6 +9,11 @@
   font-family: "poppins", sans-serif;
   font-size: 16px;
 }
+ 
+/* OCULTAR MENU HAMBURGUESA*/
+#menu-toggle,.menu-label{
+display: none;
+}
 
 :root {
   --background: #252b33;
